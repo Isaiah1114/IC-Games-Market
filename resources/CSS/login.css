@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white; 
+}
+
+
+.logo {
+    width: 50px;
+    height: 45px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.b1{
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    background-color: white;
+    width: 75vw;
+    margin: 0 auto;
+    padding: 100px 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.text-field{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 30px;
+    background-color: lightseagreen;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-style: groove;
+    border-radius: 15%;
+}
+
+/***********************************************************************/
+/*Nav Bar                                                              */
+/***********************************************************************/
+.search{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0)), url(Images/Games-controller.jpg);
+    background-position: center;
+    height: 400px;
+    padding: 100px;
+    
+}
+
+.buttons{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.GDM{
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-family: fantasy;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial;
+  text-align: left;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  border-right: 1px solid #bbb;
+}
+ul.topnav li a:hover:not(.active) {
+	background-color: #ddd;
+    color: black;
+}
+ul.topnav li a.active {
+	background-color: #4CAF50;
+}
+ul.topnav li.right {
+	float: right;
+}
+@media screen and (max-width: 720px) {
+  ul.topnav li{
+	  width: 100%;
+  }
+  ul.topnav a{
+	  width: 100%;
+  }
+}
+
+/***********************************************************************/
+/*Footer                                                               */
+/***********************************************************************/
+.footer{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    padding: 50px;
+    margin-top: 20px;
+}
